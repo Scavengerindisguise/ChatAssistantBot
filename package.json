@@ -1,0 +1,21 @@
+{
+  "name": "chatassistantbot",
+  "version": "1.0.0",
+  "description": "A Friendly ChatBot",
+  "license": "ISC",
+  "author": "Shourya Dey",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ts-node/register --env-file=.env src/basic-chat/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.0"
+  },
+  "dependencies": {
+    "openai": "^7.25.0",
+    "tiktoken": "^1.0.22"
+  }
+}
